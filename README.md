@@ -25,7 +25,7 @@ This repository serves as a redirect hub that immediately forwards visitors from
 Edit `index.html` and replace `yourusername` with your actual GitHub username:
 
 ```html
-window.location.replace("https://king326598.github.io/qr-code-generator/");
+window.location.replace("https://yourusername.github.io/qr-code-generator/");
 ```
 
 ### Step 2: Deploy to GitHub Pages
@@ -46,10 +46,10 @@ window.location.replace("https://king326598.github.io/qr-code-generator/");
 3. **Enable GitHub Pages**:
    - Go to repository Settings → Pages
    - Select "main" branch as source
-   - Your site will be at: `https://king326598.github.io/repository-name/`
+   - Your site will be at: `https://yourusername.github.io/repository-name/`
 
 ### Step 3: Google AdSense Setup
-- Use your main repository URL: `https://king326598.github.io/repository-name/`
+- Use your main repository URL: `https://yourusername.github.io/repository-name/`
 - This redirect repository ensures Google can crawl your main domain
 - Users get seamlessly redirected to your QR Code Generator
 
@@ -65,7 +65,7 @@ window.location.replace("https://king326598.github.io/qr-code-generator/");
 To redirect to a different repository, update the URL in `index.html`:
 
 ```javascript
-window.location.replace("https://king326598.github.io/different-repo/");
+window.location.replace("https://yourusername.github.io/different-repo/");
 ```
 
 ## 📝 Customization
